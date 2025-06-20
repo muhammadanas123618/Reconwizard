@@ -1,0 +1,25 @@
+Recon Report for {{ domain }}
+Generated: {{ generated }}
+
+{% if whois %}
+WHOIS
+{{ whois }}
+{% endif %} {% if dns_records %}
+DNS Records
+{% for rtype, values in dns_records.items() %} {{ rtype }}: {{ values | join(', ') }}
+{% endfor %} {% endif %} {% if subdomains %}
+Subdomains
+{% for sub in subdomains %}
+{{ sub }}
+{% endfor %}
+{% endif %} {% if open_ports %}
+Open Ports
+{{ open_ports | join(', ') }}
+
+{% endif %} {% if banners %}
+Banners
+{% for port, banner in banners.items() %} Port {{ port }}:
+{{ banner }}
+{% endfor %} {% endif %}
+Technologies
+{{ technologies }}
