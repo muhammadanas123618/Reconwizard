@@ -1,0 +1,5 @@
+dnspython
+python-whois
+requests
+jinja2
+click
