@@ -1,25 +1,53 @@
-Recon Report for {{ domain }}
-Generated: {{ generated }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recon Report for {{ domain }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h2 { color: #005f73; }
+        pre { background: #f0f0f0; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Recon Report for {{ domain }}</h1>
+    <p>Generated: {{ generated }}</p>
 
-{% if whois %}
-WHOIS
-{{ whois }}
-{% endif %} {% if dns_records %}
-DNS Records
-{% for rtype, values in dns_records.items() %} {{ rtype }}: {{ values | join(', ') }}
-{% endfor %} {% endif %} {% if subdomains %}
-Subdomains
-{% for sub in subdomains %}
-{{ sub }}
-{% endfor %}
-{% endif %} {% if open_ports %}
-Open Ports
-{{ open_ports | join(', ') }}
+    {% if whois %}
+    <h2>WHOIS</h2>
+    <pre>{{ whois }}</pre>
+    {% endif %}
 
-{% endif %} {% if banners %}
-Banners
-{% for port, banner in banners.items() %} Port {{ port }}:
-{{ banner }}
-{% endfor %} {% endif %}
-Technologies
-{{ technologies }}
+    {% if dns_records %}
+    <h2>DNS Records</h2>
+    {% for rtype, values in dns_records.items() %}
+    <strong>{{ rtype }}</strong>: {{ values | join(', ') }}<br>
+    {% endfor %}
+    {% endif %}
+
+    {% if subdomains %}
+    <h2>Subdomains</h2>
+    <ul>
+        {% for sub in subdomains %}
+        <li>{{ sub }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if open_ports %}
+    <h2>Open Ports</h2>
+    <p>{{ open_ports | join(', ') }}</p>
+    {% endif %}
+
+    {% if banners %}
+    <h2>Banners</h2>
+    {% for port, banner in banners.items() %}
+    <strong>Port {{ port }}</strong>: <pre>{{ banner }}</pre>
+    {% endfor %}
+    {% endif %}
+    
+    <h2>Technologies</h2>
+    <pre>{{ technologies }}</pre>
+
+</body>
+</html>
