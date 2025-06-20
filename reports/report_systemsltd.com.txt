@@ -1,0 +1,93 @@
+Recon Report for systemsltd.com
+Generated: 2025-06-19 23:10:23.298058
+
+
+--- WHOIS ---
+{
+  "domain_name": "SYSTEMSLTD.COM",
+  "registrar": "GoDaddy Corporate Domains, LLC",
+  "registrar_url": [
+    "http://gcd.com",
+    "https://gcd.com"
+  ],
+  "reseller": null,
+  "whois_server": "whois.brandsight.com",
+  "referral_url": null,
+  "updated_date": [
+    "2025-05-09 16:08:19",
+    "2025-05-09 16:08:14"
+  ],
+  "creation_date": "1998-01-20 05:00:00",
+  "expiration_date": "2028-01-19 05:00:00",
+  "name_servers": [
+    "EDNS3.ULTRADNS.BIZ",
+    "EDNS3.ULTRADNS.COM",
+    "EDNS3.ULTRADNS.NET",
+    "EDNS3.ULTRADNS.ORG"
+  ],
+  "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+  "emails": [
+    "abuse@gcd.com",
+    "384533@brandsightprivacy.com"
+  ],
+  "dnssec": "signedDelegation",
+  "name": "Brandsight Privacy Customer 384533",
+  "org": null,
+  "address": "PO Box 190899",
+  "city": "Boise",
+  "state": "ID",
+  "registrant_postal_code": "83719",
+  "country": "US"
+}
+A: 92.122.166.30, 92.122.166.10
+TXT: "GOOGLE-SITE-VERIFICATION=ZLRWWY5ESP-HZYJSZPOE27YRCRN7W9LMUVA5DD0NY9G", "8fb74f24-680b-4537-beca-ab62b768f29e", "teamviewer-sso-verification=395bd2aba13741b1bea9df1bd5cc2e95", "Foxit-domain-verification=4e7785a58d7c9caaaa6f9fe2c7609a8d", "msfpkey=85zunbdo35ejns9uimtq15zq", "detectify-verification=0725396a908b02aa1a1620c41b529291", "6437lunu5q87mrp98l42svmde", "jamf-site-verification=8EKd28OMoAExMsNj_v1grQ", "atlassian-domain-verification=vvF2dNQ6utVAcqJgnqd5qWSpI4v67prei/TyCCXwXsZGfrIZhFNI9DMRUBap2USs", "v=spf1 mx ip4:221.120.210.215/32 ip4:119.63.133.161/32 ip4:63.117.70.87/32 ip4:160.72.134.3/32 ip4:4.16.93.71/32 ip4:50.229.86.205/32 include:spf.protection.outlook.com -all", "vFbtA2qPzhDETKv/QEKvrU12PQnqy8BWSen9rlzegFZxBLJPPFnG9bOtxmwYkIOkQJZdqNURKC92iYhInNIAxg==", "541c2c5f-9145-49f5-9d12-87bd17d5faf3", "i06fge00g24igh28hten1csbmo", "apple-domain-verification=VLN8GVcqSAr4fHHt", "MS=ms70833533", "docker-verification=b0634418-e96e-4a03-b25a-fad65e0ef3ff", "dcb9eb9712d93e12b910fa80fbd5b379d44b134a8098e541ac", "e40aaeicp2t7h9kfe8cabjrvkq", "ogn11s78bjudckk1snmp34fu8u", "spycloud-domain-verification=ec85901f-1c7c-4164-ba89-c3b0a9480c45", "ZOOM_verify_jBEyySGFTF7ASsW48xG0FO"
+MX: 0 systemsltd-com.mail.protection.outlook.com.
+NS: edns3.ultradns.com., edns3.ultradns.net., edns3.ultradns.org., edns3.ultradns.biz.
+
+--- Subdomains ---
+*.systemsltd.com
+avcon.systemsltd.com
+collector.systemsltd.com
+content.systemsltd.com
+dev.systemsltd.com
+evecolsase.systemsltd.com
+mail.systemsltd.com
+media.systemsltd.com
+outlook.systemsltd.com
+sapsf.systemsltd.com
+servicedesk.systemsltd.com
+sip.systemsltd.com
+smtp.systemsltd.com
+stage.systemsltd.com
+staging.systemsltd.com
+systemsltd.com
+ventures.systemsltd.com
+webcon.systemsltd.com
+webmail.systemsltd.com
+www.collector.systemsltd.com
+www.evecolsase.systemsltd.com
+www.sip.systemsltd.com
+www.smtp.systemsltd.com
+www.systemsltd.com
+xmpp.systemsltd.com
+
+--- Open Ports ---
+80, 443
+Port 80: HTTP/1.0 400 Bad Request
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 312
+Expires: Thu, 19 Jun 2025 18:10:46 GMT
+Date: Thu, 19 Jun 2025 18:10:46 GMT
+Connection: close
+
+
+Port 443: HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none';   connect-src 'self' https://www.systemsltd.com https://www.google-analytics.com https://px.ads.linkedin.com https://cdn-cookieyes.com https://log.cookieyes.com;   script-src 'self' 'unsafe-inline'            https://www.recaptcha.net            https://www.googletagmanager.com            https://connect.facebook.net            https://www.gstatic.com            https://googleads.g.doubleclick.net            https://www.googleadservices.com            https://www.facebook.com            https://cdn-cookieyes.com            https://snap.licdn.com;   script-src-elem 'self' 'unsafe-inline'            https://www.recaptcha.net            https://www.googletagmanager.com            https://connect.facebook.net            https://www.gstatic.com            https://googleads.g.doubleclick.net            https://www.googleadservices.com            https://www.facebook.c
+
+--- Technologies ---
+[1m[34mhttp://systemsltd.com[0m [403 Forbidden] [1mCountry[0m[[0m[22mUNITED STATES[0m][[1m[31mUS[0m], [1mIP[0m[[0m[22m23.55.44.41[0m], [1mTitle[0m[[1m[33mAccess Denied[0m]
+
