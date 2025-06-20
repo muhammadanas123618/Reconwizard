@@ -24,8 +24,8 @@
 
 ### Clone and set up the virtual environment:
 ```bash
-git clone https://github.com/your-username/reconwizard.git
-cd reconwizard
+git clone https://github.com/muhammadanas123618/Reconwizard.git
+cd Reconwizard
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
